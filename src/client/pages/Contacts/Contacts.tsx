@@ -88,19 +88,19 @@ const Contacts: React.FC = () => {
           <div className={styles.contactCard}>
             <MailOutlined className={styles.icon} />
             <h3>Электронная почта</h3>
-            <p>support@example.com</p>
+            <p>ruslan@flex16.ru</p>
           </div>
 
           <div className={styles.contactCard}>
             <PhoneOutlined className={styles.icon} />
             <h3>Телефон</h3>
-            <p>+7 (123) 456-78-90</p>
+            <p>+7 (843) 259 34 11</p>
           </div>
 
           <div className={styles.contactCard}>
             <EnvironmentOutlined className={styles.icon} />
             <h3>Адрес</h3>
-            <p>г. Москва, ул. Примерная, д. 123</p>
+            <p>ул. Аделя Кутуя, 82/4</p>
           </div>
 
           <div className={styles.contactCard}>
@@ -167,7 +167,7 @@ const Contacts: React.FC = () => {
       <div className={styles.mapSection}>
         <iframe
           title="Офис на карте"
-          src="https://yandex.ru/map-widget/v1/?um=constructor%3A1a2b3c4d5e6f7g8h9i0j&amp;source=constructor"
+          src="https://yandex.ru/map-widget/v1/?ll=49.182915%2C55.782830&z=16&pt=49.182915,55.782830,pm2rdm"
           width="100%"
           height="400"
           frameBorder="0"
